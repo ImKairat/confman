@@ -8,5 +8,5 @@ strip = true
 [alias]
 release = "build --release"
 
-[build]
-target = "x86_64-unknown-linux-gnu"
+# [build]
+# target = "x86_64-unknown-linux-gnu"

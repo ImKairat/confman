@@ -1,8 +1,11 @@
-SHELL := /bin/bash
+
+.PHONY: check
+check:
+	@cargo check
 
 .PHONY: run
 run:
-	@cargo run --release
+	@cargo run --quiet
 
 .PHONY: build
 build:
